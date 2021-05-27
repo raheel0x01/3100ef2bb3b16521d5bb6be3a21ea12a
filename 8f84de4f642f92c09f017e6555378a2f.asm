@@ -1,6 +1,6 @@
 include '..\FASM\INCLUDE\win32ax.inc'
 
-.data
+.data 
 	c_file_name	dd 0x0
 	c_file_rnd_name: times 8 db 0x0
 				 db '.tmp',0
